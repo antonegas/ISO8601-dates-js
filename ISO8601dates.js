@@ -18,7 +18,7 @@ Date.prototype.getISOWeek = function () {
 // A version of Miles (2009-02-12) datediff function in the answer on the
 // StackOverflow question:
 // https://stackoverflow.com/questions/542938/how-to-calculate-number-of-days-between-two-dates
-// With the use of Math.trunc instead of round as per Jin Wang's (2016-07-06)
+// With the use of Math.trunc instead of Math.round as per Jin Wang's (2016-07-06)
 // comment.
 Date.daysBetween = function (day1, day2) {
   return Math.trunc((day1 - day2)/86400000)
