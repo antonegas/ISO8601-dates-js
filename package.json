@@ -1,0 +1,22 @@
+{
+  "name": "iso8601-dates",
+  "version": "2.0.0",
+  "description": "Functions for handeling Date object with ISO8601 date standard in JavaScript.",
+  "main": "src/ISO8601dates.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonegas/ISO8601-dates-js.git"
+  },
+  "author": "antonegas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antonegas/ISO8601-dates-js/issues"
+  },
+  "homepage": "https://github.com/antonegas/ISO8601-dates-js#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
